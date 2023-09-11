@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tasks</title>
+</head>
+<body>
+    <nav>
+        <h1>To do List</h1>
+        <div class="info">
+            <p>Tasks <span id="stasks"> 0</span></p>
+            <p>Completed <span id="scompleted"> 0</span></p>
+        </div>
+    </nav>
+    <!-- Form-->
+    <label for="">New task</label>
+    <form action="">
+        <!-- Input enter your new task-->
+        <input 
+            id="newTask" 
+            class="text" 
+            type="text" 
+            name="" 
+            placeholder="Enter your new task"
+        >
+        <!--Input button add new task-->
+        <input 
+            id="btnAdd"
+            class="button" 
+            type="button"  
+            value="Add"
+            >
+    </form>
+        <table id="table">
+            <tbody>
+                <tr class="theader">
+                    <th scope="colgroup" class="id">ID</th>
+                    <th scope="colgroup" class="tasks">TASKS</th>
+                    <th scope="colgroup" class="state">STATE</th>
+                    <th scope="colgroup" class="modify">SELECT</th>
+                    <th scope="colgroup" class="deleted">DELETED</th>
+                </tr>
+            </tbody>
+        </table>
+                <table>
+                    <tbody class="content" id="content">
+                    <!--Content from js-->
+                    </tbody>
+                </table>
+                
+        <script src="https://kit.fontawesome.com/91a6a609ae.js" crossorigin="anonymous"></script>
+        <script src="assets/js/function.js"></script>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>

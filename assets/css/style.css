@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    margin-top: 10vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+nav h1{
+    font-size: 2em;
+    border-bottom: 4px solid #110595c5;
+}
+h1, p{
+    margin: 0;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 2vh;
+    align-items: end;
+    font-size: 1.5em;
+}
+.info p{
+    border-bottom: #110595 solid 1px;
+}
+.info span{
+    text-align: center;
+    padding: 0 0.5vw;
+    background-color: rgba(170, 190, 255, 0.602);
+}
+
+label{
+    margin-left: 10vw;
+    font-size: 1.5em;
+}
+form{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+form .text{
+    width: 70vw;
+    height: 5vh;
+    font-size: 1.5em;
+    background-color: #d9d7f8;
+    color: #0f0763;
+    outline: none;
+    margin-bottom: 5vh;
+}
+form .text:focus{
+    background-color: #f8f7ff;
+    color: #110595;
+}
+form .button{
+    width: 8vw;
+    height: 6vh;
+    font-size: 1.5em;
+    border: 0;
+    border-radius: .5em;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    outline: none;
+}
+.theader th{
+    border-collapse: separate;
+    border-bottom: 2px solid #110595;
+}
+.id{
+    width: 4vw;
+}
+.tasks{
+    width: 50vw;
+}
+.state{
+    width: 12vw;
+}
+.modify{
+    width: 5vw;
+}
+.deleted{
+    width: 5vw;
+}
+.content th{
+    border-collapse: separate;
+    border-bottom: 2px solid #c6c2f6;
+    color: rgb(121, 121, 125);
+}
+.content th:hover{
+    background-color: #d9d6f561;
+}
+.stateJs{
+    color: green;
+    width: 12vw;
+}
+
